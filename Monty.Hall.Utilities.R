@@ -4,8 +4,11 @@ pick.door <- function(doors){
 }
 
 opened.door <- function(car.door, contestant.door){
-    door.options <- c(1,2,3)
-    door.options <- door.options[-c(car.door, contestant.door)]
-    Montys.door <- sample(door.options, 1)
+    
+    Montys.door <- sample(3, 1)
+
+    while(Montys.door = car.door || Montys.door = contestant.door){
+        Montys.door <- sample(3, 1)
+    }   
     return(Montys.door)
 }
