@@ -1,9 +1,11 @@
-# 1a) Create a function called pick.door. 
-# This function will randomly pick a door from 3 possible doors. 
-# It will return the number of the chosen door. 
-# The sample() function might be useful here.
-
 pick.door <- function(doors){
     door.number <- sample(doors, 1)
     return(door.number)
+}
+
+opened.door <- function(car.door, contestant.door){
+    door.options <- c(1,2,3)
+    door.options <- door.options[-c(car.door, contestant.door)]
+    Montys.door <- sample(door.options, 1)
+    return(Montys.door)
 }
