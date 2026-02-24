@@ -1,0 +1,47 @@
+commit 726b4d1704d81a6d02bce8ac0e0a582a01f6c3f3
+Author: Hiba-N <hibanasir123@hotmail.com>
+Date:   Tue Feb 24 16:01:34 2026 -0500
+
+    comments added
+
+commit d6d9a19d49cf8eb3fe850e2324ac86979898d76c
+Author: Hiba-N <hibanasir123@hotmail.com>
+Date:   Tue Feb 24 16:00:29 2026 -0500
+
+    modularity added, testing complete
+
+commit 0d8108e42daf1bbb17a65a672e69ff640d6db7a4
+Author: Hiba-N <hibanasir123@hotmail.com>
+Date:   Tue Feb 24 15:53:16 2026 -0500
+
+    adding Run.Monty.Hall.R file
+
+commit 9ba861ae8283499bededbe8dfc84e2c5b21c5455
+Author: Hiba-N <hibanasir123@hotmail.com>
+Date:   Tue Feb 24 11:33:51 2026 -0500
+
+    tested existing functions, added new function play.many.monty.halls
+
+commit c5a13053e4489a67bb20a604e2283ae33b09fea0
+Author: Hiba-N <hibanasir123@hotmail.com>
+Date:   Tue Feb 24 11:22:17 2026 -0500
+
+    adding function play.monty.hall and comments
+
+commit 6b5da6e2db7a9e7db0fb95443cdc36a50dcdee6e
+Author: Hiba-N <hibanasir123@hotmail.com>
+Date:   Tue Feb 24 11:07:51 2026 -0500
+
+    adjusted function opened.door as per sample function behaviour
+
+commit c8aa4da69174a45f94cdb190a577678c7a23b35b
+Author: Hiba-N <hibanasir123@hotmail.com>
+Date:   Tue Feb 24 10:54:59 2026 -0500
+
+    created function opened.door
+
+commit 0945852020f94c01d6710bee86d4727cb3f8ff4e
+Author: Hiba-N <hibanasir123@hotmail.com>
+Date:   Tue Feb 24 10:48:50 2026 -0500
+
+    created pick.door function

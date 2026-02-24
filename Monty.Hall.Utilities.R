@@ -37,21 +37,16 @@ play.monty.hall <- function(player.switches){
 }
 
 
-# 1d) Create a function called play.many.monty.halls. This function takes two arguments,  n
-#  , an integer, and a boolean. This function will call the play.monty.hall function  n
-#   times, using the value of the boolean given as an argument. 
-#   The function will return the fraction of times the contestant chooses the winning door.
-
 play.many.monty.halls <- function(total.plays, player.switches){
     play.count <- 0
     total.wins <- 0
-    while (play.count < total.plays){
+    while (play.count < total.plays){ #playing the game and summing up total wins
         
         win.status <- play.monty.hall(player.switches)
         total.wins <- win.status + total.wins
-        play.count <- play.count + 1
+        play.count <- play.count + 1 #counter to track total wins
     }
 
-    winning.fraction <- total.wins/total.plays
+    winning.fraction <- total.wins/total.plays #calculating fraction of wins
     return(winning.fraction)
 }
